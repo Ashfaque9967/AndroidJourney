@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    android:id="@+id/LinearLayout"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDark"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/adamina"
+        android:padding="10dp"
+        android:text="Make it DARK" />
+
+    <Button
+        android:id="@+id/btnread"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:fontFamily="@font/adamina"
+        android:text="Make it Yellow" />
+
+    <Button
+        android:id="@+id/btnwhite"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:fontFamily="@font/adamina"
+        android:text="bring some light" />
+</LinearLayout>
