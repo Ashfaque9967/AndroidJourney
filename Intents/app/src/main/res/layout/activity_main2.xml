@@ -7,6 +7,39 @@
     android:orientation="vertical"
     tools:context=".MainActivity2">
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Cardgoogle"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="60dp"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        app:cardCornerRadius="25dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-17dp"
+            android:layout_gravity="center"
+
+            app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:fontFamily="serif-monospace"
+            android:text="Click to open google"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -17,9 +50,19 @@
         android:gravity="center_vertical"
         android:layout_marginTop="50dp"
         android:textStyle="bold"
-        android:text="Welcome to NEW Activity"
+        android:text="Click previous"
         tools:layout_editor_absoluteX="179dp"
         tools:layout_editor_absoluteY="379dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:fontFamily="monospace"
+        android:text="to go back to camera"/>
 
     <Button
         android:id="@+id/button2"
@@ -27,7 +70,7 @@
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Previous activity" />
+        android:text="Previous " />
 
 
 </LinearLayout>
