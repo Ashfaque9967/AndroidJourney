@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".orderinfo">
+
+    <TextView
+        android:id="@+id/orderReciept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Reciept :"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/margintop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--------------------------"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/orders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:hint="autofill"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/marginbottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--------------------------"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnfinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Finish" />
+
+</LinearLayout>
