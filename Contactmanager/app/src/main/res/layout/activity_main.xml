@@ -73,4 +73,52 @@
         android:backgroundTint="@color/blue"
         android:text="Add Contact" />
 
+    <TextView
+        android:id="@+id/Findtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="10dp"
+        android:text="Find Contact" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:boxStrokeColor="@color/blue"
+        android:textColorHint="@color/blue"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Findin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/blue"
+            android:hint="Name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/numtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="10dp"
+        android:text="Number: " />
+
+    <Button
+        android:id="@+id/btnFind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/blue"
+        android:text="Find Contact" />
+
 </LinearLayout>

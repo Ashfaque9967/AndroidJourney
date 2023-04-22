@@ -46,11 +46,7 @@ class Login : AppCompatActivity() {
                 readData(phone, password)
             }
 
-
-
-
         }
-
 
     }
 
@@ -73,11 +69,14 @@ class Login : AppCompatActivity() {
                     startActivity(intent)
                 }
             }
+            else{
+                Toast.makeText(this, "Not Found!!", Toast.LENGTH_SHORT).show()
+            }
 
 
 
         }.addOnFailureListener{
-            Toast.makeText(this, "Not Found!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Failed!", Toast.LENGTH_SHORT).show()
         }
     }
 }
