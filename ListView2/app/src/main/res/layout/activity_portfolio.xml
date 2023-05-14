@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".portfolio">
+
+    <TextView
+        android:id="@+id/portfolio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:text="Portfolio"
+        android:textColor="@color/black"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imgtv"
+        android:layout_width="186dp"
+        android:layout_height="186dp"
+        android:src="@drawable/manjiro_sano"
+        app:civ_border_width="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:civ_border_color="#FF000000"
+        />
+
+    <TextView
+        android:id="@+id/nametv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/abril_fatface"
+        android:layout_gravity="center"
+        android:text="name"
+        android:textColor="@color/black"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/clantv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/abril_fatface"
+        android:layout_gravity="center"
+        android:text="clan"
+        android:textColor="@color/black"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/positiontv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/abril_fatface"
+        android:layout_gravity="center"
+        android:text="position"
+        android:textColor="@color/black"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Muster" />
+
+</LinearLayout>

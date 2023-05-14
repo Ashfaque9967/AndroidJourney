@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
             val builder = AlertDialog.Builder(this)
             builder.setTitle("EXIT")
-            builder.setMessage("Exiting the applixcation.")
+            builder.setMessage("Exiting the application.")
             builder.setIcon(R.drawable.baseline_exit_to_app_24)
             builder.setPositiveButton("Exit", DialogInterface.OnClickListener { dialogInterface, i ->
                 finish()
